@@ -1,0 +1,19 @@
+<template name="layout">
+	<paper-drawer-panel force-narrow edge-swipe-sensitivity="30">
+		<div drawer>
+			{{> navigationDrawer}}
+		</div>
+		<div main class="fullbleed layout vertical">
+			{{> Template.dynamic template=header}}
+			{{#momentum plugin='flow-router'}}
+				{{> Template.dynamic template=page}}
+			{{/momentum}}
+		</div>
+	</paper-drawer-panel>
+</template>
+
+<template name="contentWrapper">
+	<div class="container {{#unless fullHeight}}below-header{{/unless}}">
+		{{> UI.contentBlock}}
+	</div>
+</template>

@@ -1,0 +1,25 @@
+{
+  "name": "tesloop:application-share",
+  "version": "0.0.1",
+  "dependencies": {
+    "lunr.js": "latest",
+    "moment": "latest",
+    "moment-timezone": "latest",
+    "rome": "latest"
+  },
+  "overrides": {
+    "moment": {
+      "arch": [
+        "client",
+        "server"
+      ]
+    },
+    "moment-timezone": {
+      "arch": [
+        "client",
+        "server"
+      ]
+    }
+  },
+  "private": true
+}

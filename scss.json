@@ -1,0 +1,9 @@
+{
+	"useIndex": true,
+	"indexFilePath": "client/main.sass",
+	"enableAutoprefixer": true,
+	"autoprefixerOptions": {
+		"browsers": ["> 5%"],
+		"cascade": false
+	}
+}

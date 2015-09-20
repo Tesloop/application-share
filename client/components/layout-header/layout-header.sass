@@ -1,0 +1,48 @@
+.paper-header
+	height: 56px
+	$header-text-color: $light-text
+	background-color: $primary-color
+	color: $header-text-color
+	left: 0
+	right: 0
+	position: relative
+	z-index: 3
+	top: -56px
+	@extend .shadow-1
+
+paper-toolbar.layout-header-container
+	height: 56px
+	$header-text-color: $light-text
+	background-color: $primary-color
+	color: $header-text-color
+	height: 56px
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	z-index: 3
+	@extend .shadow-1
+	.book-link
+		cursor: pointer
+	.toolbar-tools.paper-toolbar
+		height: 56px
+		.header-title
+			color: $header-text-color
+			cursor: default
+			font-size: 26px
+			margin-left: 15px
+			pointer-events: auto
+			//overflow: visible !important
+			//transform-origin: left center
+		.drawer-toggle
+			cursor: pointer
+			font-size: 26px
+			padding: 10px 5px
+	.help
+		color: $header-text-color
+		cursor: pointer
+		font-size: 26px
+		padding: 0px 6px
+
+	.header-image
+		transform-origin: center bottom
