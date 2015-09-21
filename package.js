@@ -1,10 +1,10 @@
 Package.describe({
 	name: 'tesloop:application-share',
-	version: '0.0.1',
+	version: '0.0.2',
 	// Brief, one-line summary of the package.
 	summary: 'The application share for Tesloop\'s web and mobile applications.',
 	// URL to the Git repository containing the source code for this package.
-	git: '',
+	git: 'https://github.com/Tesloop/application-share',
 	// By default, Meteor will default to using README.md for documentation.
 	// To avoid submitting documentation, set this field to null.
 	documentation: 'README.md'
