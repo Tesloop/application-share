@@ -4,7 +4,7 @@ The application share for [Tesloop](https://tesloop.com)'s web and mobile applic
 
 ## Quick Start
 
-Since Meteor's packaging system is still somewhat gimp, you have to do the following to get this package fully functioning (working).
+Since Meteor's packaging system is still somewhat lacking, you have to do the following to get this package fully functioning (working).
 <br>
 <br>
 Add a *.bowerrc* file in the root of your project directory
@@ -60,7 +60,7 @@ Route pages and templates like so
 
 ## Contributors
 
-* "blah" [blah@tesloop.com](email:blah@tesloop.com)
+* "jordan" [jordan@tesloop.com](email:jordan@tesloop.com)
 
 ## License
 
