@@ -27,6 +27,7 @@ Package.onUse(function(api) {
 		'reactive-dict',
 		'coffeescript',
 		'fourseven:scss@3.2.0',
+		'aldeed:collection2@2.5.0',
 		'accounts-password',
 		'accounts-ui',
 
