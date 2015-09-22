@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'tesloop:application-share',
-	version: '0.0.2',
+	version: '0.0.3',
 	// Brief, one-line summary of the package.
 	summary: 'The application share for Tesloop\'s web and mobile applications.',
 	// URL to the Git repository containing the source code for this package.
@@ -28,6 +28,8 @@ Package.onUse(function(api) {
 		'coffeescript',
 		'fourseven:scss@3.2.0',
 		'aldeed:collection2@2.5.0',
+		//'matb33:collection-hooks@0.8.0',
+		'aldeed:tabular@1.4.0',
 		'accounts-password',
 		'accounts-ui',
 
@@ -98,7 +100,7 @@ Package.onUse(function(api) {
 
 	// Server
 	api.addFiles([
-
+		'server/main.coffee'
 	], ['server']);
 
 	// ------ Add static files ------
