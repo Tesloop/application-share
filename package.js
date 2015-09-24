@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'tesloop:application-share',
-	version: '0.0.3',
+	version: '0.0.5',
 	// Brief, one-line summary of the package.
 	summary: 'The application share for Tesloop\'s web and mobile applications.',
 	// URL to the Git repository containing the source code for this package.
@@ -37,6 +37,8 @@ Package.onUse(function(api) {
 		'meteorhacks:picker@1.0.3',
 		'meteorhacks:npm@1.5.0',
 		'mquandalle:bower@1.4.0',
+		'mrt:moment@2.8.1',
+		'mrt:moment-timezone@0.2.1',
 
 		// layout and routing with animations
 		'kadira:flow-router@2.6.1',
@@ -107,12 +109,14 @@ Package.onUse(function(api) {
 	if(typeof api.addAssets === "function"){
 		api.addAssets([
 			'public/favicon.png',
+			'public/images/tesloop_logo.png',
 			// Style Imports
 			'variables.sass',
 		], ['client']);
 	} else {
 		api.addFiles([
 			'public/favicon.png',
+			'public/images/tesloop_logo.png',
 			// Style Imports
 			'variables.sass'
 		], ['client'], {

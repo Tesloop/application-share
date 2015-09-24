@@ -18,4 +18,8 @@ FlowRouter.triggers.enter [
 			name: context.route.name
 		FlowRouter.lastRoute = lastRoute
 		lastRoute = newRoute
+,
+	# Toggle navigation drawer closed
+	(context) ->
+		$('paper-drawer-panel')?[0]?.closeDrawer()
 ]

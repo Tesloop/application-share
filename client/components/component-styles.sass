@@ -51,24 +51,29 @@
 		border-bottom: 1px solid gainsboro
 		padding: 10px
 		position: relative
-		.action
-			cursor: pointer
-			padding: 15px
+	.action
+		cursor: pointer
+		display: inline-block
+		padding: 5px
+		margin: 5px 10px
 
 .button
 	border-radius: 2px
 	cursor: pointer
 	display: inline-block
-	padding: 0 20px
+	padding: 5px 20px
 	text-align: center
 	&.raised
 		@extend .shadow-1
-	&.primary
-		background-color: $primary-color
-		color: $light-text
-	&.accent
-		background-color: $accent-color
-		color: $light-text
+		&.primary
+			background-color: $primary-color
+			color: $light-text
+		&.accent
+			background-color: $accent-color
+			color: $light-text
+		&.transparent
+			background-color: transparent
+			color: $dark-text
 
 .information
 	font-size: 18px
